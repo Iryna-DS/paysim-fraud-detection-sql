@@ -1,0 +1,5 @@
+"isfraud","balance_status","transactions","pct"
+0,Consistent,254520,9.21
+0,Inconsistent,2507676,90.79
+1,Consistent,8168,99.45
+1,Inconsistent,45,0.55
