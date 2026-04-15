@@ -1,5 +1,11 @@
--- Analysis: Fraud concentration by time step
+-- Analysis: Fraud distribution across time steps
 
+-- Finding: Fraud rate varies significantly across time steps (0.01% to 100%).
+--          "Quiet periods" with near-zero legitimate activity show 100% fraud rate —
+--          suggesting coordinated attacks during off-peak hours.
+--          fraud_rate and fraud_amount don't always align: some steps show
+--          low fraud_rate but very high fraud_amount (few but large transactions).
+--          Both dimensions matter for alert design in real payment systems.
 
 
 SELECT
