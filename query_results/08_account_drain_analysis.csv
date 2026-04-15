@@ -1,0 +1,6 @@
+"drain_category","fraud_transactions","pct_of_fraud","avg_amount","total_fraud_amount"
+Full drain (100%),8022,97.67,1318691.54,10578543500.64
+Partial drain (50–89%),83,1.01,9891499.44,820994453.20
+Small fraction (<50%),53,0.65,9572498.18,507342403.32
+Already empty,41,0.50,232562.70,9535070.68
+Near-full drain (90–99%),14,0.17,10000000.00,140000000.00
