@@ -106,6 +106,11 @@ Hypothesis not confirmed. 99.45% of fraud transactions show consistent balances,
 → See: `sql/05_balance_inconsistency.sql`
 
 ---
+## SQL Techniques
+Window functions · Conditional aggregation · CTEs · Subgroup filtering (HAVING) · 
+Ratio bucketing · Data quality checks
+
+---
  
 ## Dataset Notes
  
