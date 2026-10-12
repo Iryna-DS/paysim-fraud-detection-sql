@@ -1,3 +1,9 @@
+-- Analysis: Repeat senders involved in fraudulent transactions
+
+-- Finding: A subset of accounts repeatedly appear as senders in fraud cases,
+--          consistent with money mule behaviour or compromised accounts
+--          being reused across multiple fraudulent operations.
+
 SELECT 
     nameorig,
     COUNT(*) AS total_transactions,
