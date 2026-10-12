@@ -1,3 +1,9 @@
+-- Analysis: Amount comparison — fraud vs legitimate transactions
+
+-- Finding: Fraud transactions have a significantly higher average amount,
+--          consistent with account takeover scenarios where the full
+--          balance is drained in a single operation.
+
 SELECT 
     CASE 
         WHEN isfraud = 1 THEN 'Fraud'
