@@ -1,3 +1,9 @@
+-- Analysis: Fraud rate by transaction type
+
+-- Finding: TRANSFER and CASH_OUT account for 100% of all fraud cases.
+--          Other types (PAYMENT, DEBIT, CASH_IN) show zero fraud activity,
+--          suggesting fraudsters deliberately exploit these two channels.
+
 SELECT 
     type,
     COUNT(*) AS total_transactions,
